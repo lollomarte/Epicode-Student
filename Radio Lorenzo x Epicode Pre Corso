@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Lorenzo</title>
+</head>
+<body align="center">
+    <font face="Verdana">
+        <h1 align="center">Radio Lorenzo</h1>
+        <h2 align="center">Completa con i tuoi dati!</h2>
+        <form onsubmit="alert ('Iscrizione completata')">
+        <div>
+            <h3 align="center">Inserisci il tuo nome</h3>
+            <input type="text" placeholder="Inserisci il tuo nome">
+        </div>
+        <div>
+            <h3 align="center">Inserisci il tuo cognome</h3>
+            <input type="text" placeholder="Cognome">
+        </div>
+        <div>
+            <h3 align="center">Inserisci la tua Email</h3>
+            <input type="email" placeholder="Email">
+        </div>
+        <div>
+            <h3 align="center">Inserisci la tua Data di Nascita</h3>
+            <input type="date" placeholder="Data di Nascita">
+        </div>
+        <div>
+            <h3 align="center">Inserici una Password</h3>
+            <input type="password" placeholder="Password" minlength="6"required>
+            <p>La Password deve contenere almeno 6 caratteri</p>
+        </div>
+        <div>
+            <h3 align="center">Scegli i tuoi generi musicali preferiti</h3>
+            <input type="checkbox"<p>Rock</p>
+            <input type="checkbox"<p>Indie</p>
+            <input type="checkbox"<p>Pop</p>
+            <input type="checkbox"<p>Classica</p>
+       </div>
+       <div>
+        <h3 align="center">Accetto i termini e condizioni</h3>
+        <input type="Radio"<p>Si</p>
+       </div>
+      
+
+        <div>
+            <img src="https://banner2.cleanpng.com/20180329/hye/kisspng-arrow-computer-icons-down-arrow-5abd347627eba4.5285155115223491741635.jpg"
+            style="width: 100px">
+        </div>
+        <button type="submit">Invia Dati</button>
+    </font>
+</form>
+</body>
+</html>
